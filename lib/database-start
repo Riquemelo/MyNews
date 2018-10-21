@@ -1,0 +1,9 @@
+**Comando para executar mysql server com localhost (Linux)
+**Necessária a instalação do pacote de mysql-5.7 e mysql-server-5.7
+
+sudo mysql -h localhost -u -riquemlo -p
+
+
+**Comando para criar e acessar nova base de dados
+mysql> CREATE DATABASE MyNewsDB
+mysql> USE MyNewsDB
