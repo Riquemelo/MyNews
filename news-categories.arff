@@ -1,0 +1,69 @@
+@relation news-categories
+
+@attribute Sports numeric
+@attribute Politics numeric
+@attribute Entertainment numeric
+@attribute Tech numeric
+@attribute Business numeric
+@attribute Interest {sports,politics,entertainment,tech,business}
+
+@data
+60,10,10,10,10,sports
+50,20,10,10,10,sports
+40,10,20,10,20,sports
+52,0,0,48,0,sports
+50,0,40,0,10,sports
+28,24,26,22,0,sports
+30,14,26,22,18,sports
+21,20,19,20,20,sports
+22,20,18,19,21,sports
+30,20,24,21,15,sports
+24,20,23,21,22,sports
+20,50,10,10,10,politics
+20,30,10,20,20,politics
+10,60,10,10,10,politics
+34,42,4,7,3,politics
+26,27,22,18,10,politics
+0,50,40,0,10,politics
+21,26,23,17,13,politics
+19,25,24,19,13,politics
+19,25,20,19,17,politics
+35,40,25,0,0,politics
+21,24,23,15,17,politics
+10,30,40,10,10,entertainment
+20,20,30,10,20,entertainment
+10,10,60,10,10,entertainment
+0,0,90,0,10,entertainment
+32,0,46,21,1,entertainment
+12,29,36,10,13,entertainment
+15,40,45,0,0,entertainment
+15,30,35,16,14,entertainment
+15,34,37,10,14,entertainment
+15,24,27,20,24,entertainment
+16,20,26,24,24,entertainment
+16,18,28,24,24,entertainment
+20,18,29,23,20,entertainment
+20,20,10,30,20,tech
+10,20,10,50,10,tech
+10,20,10,45,15,tech
+13,27,5,45,10,tech
+10,19,17,33,21,tech
+0,0,10,80,10,tech
+11,8,26,28,27,tech
+12,29,16,30,13,tech
+4,3,3,46,44,tech
+20,18,23,29,20,tech
+20,18,24,28,20,tech
+20,20,24,26,20,tech
+20,20,24,31,15,tech
+10,25,10,20,35,business
+20,10,15,10,45,business
+10,10,5,20,55,business
+0,25,19,0,56,business
+5,5,5,5,80,business
+10,14,36,12,38,business
+12,29,16,10,33,business
+16,20,12,24,28,business
+16,20,14,14,36,business
+4,36,3,13,44,business
+35,14,11,0,40,business
