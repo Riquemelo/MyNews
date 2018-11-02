@@ -5,7 +5,6 @@
  */
 $().ready(function() {
     $('#login-button').click(function(e) {
-        console.log('click');
         e.preventDefault();
         var user = $('#user-input').val();
         var pass = $('#pass-input').val();

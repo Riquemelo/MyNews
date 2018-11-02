@@ -37,6 +37,7 @@
                     success = true;
                     session.setAttribute("user", user);
                     session.setAttribute("email", rs.getString("cd_email"));
+                    session.setAttribute("name", rs.getString("nm_user"));
                 } else {
                     result.put("stacktrace", "invalid");
                     result.put("errorMessage", "Login e/ou senha invalidos");
@@ -55,7 +56,9 @@
                 c.conn.close();
             }
             break;
-
+        case "Logoff":
+            session.invalidate();
+            break;
         default:
             out.println("Metodo Invalido");
             break;

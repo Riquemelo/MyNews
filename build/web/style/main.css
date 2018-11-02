@@ -7,13 +7,24 @@ and open the template in the editor.
     Created on : 30/10/2018, 19:58:47
     Author     : riquemlo
 */
+.header-text{
+    color: white;
+}
+
+#logoff{
+    margin-left: 10px
+}
+
+.navbar-mynews{
+    background-color: #0472cd;
+}
 
 footer{
     bottom: 0px;
     position: absolute;
     border-top:white 1px solid; 
     width: 100%;
-    color: black;
+    color: white;
     background-color: #0472cd;
     text-align: center;
     padding-top: 15px;
