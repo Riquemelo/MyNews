@@ -8,9 +8,6 @@
 <%@page import="org.json.JSONObject"%>
 <%@page import="mynews.Conexao"%>
 <%@page import="java.security.MessageDigest"%>
-
-
-
 <%
     String method = request.getParameter("method");
     JSONObject result = new JSONObject();
