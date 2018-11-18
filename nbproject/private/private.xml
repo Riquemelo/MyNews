@@ -2,6 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/js/loginController.js</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/services/loginService.jsp</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/style/index.css</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/WEB-INF/jspf/login/login.jspf</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/pages/feed.jsp</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/WEB-INF/jspf/login/register.jspf</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/style/main.css</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/index.jsp</file>
+            <file>file:/home/riquemlo/NetBeansProjects/MyNews/web/WEB-INF/jspf/header.jspf</file>
+        </group>
     </open-files>
 </project-private>
