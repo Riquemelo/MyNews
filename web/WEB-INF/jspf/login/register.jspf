@@ -2,7 +2,7 @@
 <div id="register-box">
     <h2>Cadastre-se agora</h2>
     <hr>
-    <div id="form-box">
+    <div style="display: none" id="form-box">
         <div class="row">
             <div class="form-label col-sm-5 float-right">
                 <label class="float-right" for="nome">
@@ -38,7 +38,31 @@
         <button class="btn float-left" id="back-button">Voltar</button>
         <button class="btn btn-mynews float-right" id="next-button" disabled>Proximo</button>
     </div>
-    <div id="question-box">
-
+    <div style="display: none" id="question-box-introduction">
+        <div class="row">
+            <h3>Iremos realizar algumas perguntas para melhorar a sua experiência em nosso site, tenha paciência (;</h3>
+            <input id="next-button1" type="submit" class="btn btn-mynews center" value="Continuar"></input>
+        </div>
+    </div>
+    <div style="display: none" id="question-box">
+        <div class="row">
+            <h3>Qual a sua afinidade com os temas a seguir</h3>
+            <br>
+            <div class="form-group slide-container">
+                <p style="text-align: left; width: 30%; float: left;">Baixa</p>
+                <p style="text-align: right; width: 30%; float: right;">Alta</p>
+                <label for="formControlRange"><h5Entreterimento</h5></label>
+                <input step="5" min="0" max="100" type="range" class="slider" id="myRange">
+                <label for="formControlRange"><h5>Esportes</h5></label>
+                <input step="5" min="0" max="100" type="range" class="slider" id="myRange">
+                <label for="formControlRange"><h5>Negócios</h5></label>
+                <input step="5" min="0" max="100" type="range" class="slider" id="myRange">
+                <label for="formControlRange"><h5>Política</h5></label>
+                <input step="5" min="0" max="100" type="range" class="slider" id="myRange">
+                <label for="formControlRange"><h5>Tecnologia</h5></label>
+                <input step="5" min="0" max="100" type="range" class="slider" id="myRange">
+            </div>
+            <input id="register" type="submit" class="btn btn-mynews center" value="Registrar"></input>
+        </div>
     </div>
 </div>
