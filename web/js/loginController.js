@@ -46,18 +46,24 @@ $().ready(function() {
     
     $('#register-button').click(function(e){
        $('#login-box').hide();
+       $('#form-box').show();
        $('#register-box').show();
     });
     
     $('#back-button').click(function(e){
        $('#register-box').hide();
-       $('#login-box').show();
-       
+       $('#login-box').show(); 
     })
     
     $('#next-button').click(function(e){
         e.preventDefault();
         $('#form-box').hide();
+        $('#question-box-introduction').show();
+    });
+    
+    $('#next-button1').click(function(e){
+//        e.preventDefault();
+        $('#question-box-introduction').hide();
         $('#question-box').show();
     });
     
